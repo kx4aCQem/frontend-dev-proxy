@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "browser-sync": "^3.0.2",
-    "frontend-dev-proxy": "file:.."
+    "@kx4acqem/frontend-dev-proxy": "1.x.x"
   }
 }

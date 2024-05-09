@@ -1,6 +1,6 @@
 {
   "name": "@kx4acqem/frontend-dev-proxy",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Development Proxy for local AEM Frontend Development - based on @Adobe/aem-site-theme-builder",
   "author": "Alexander Berndt",
   "license": "Apache-2.0",
