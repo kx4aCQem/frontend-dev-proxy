@@ -1,0 +1,34 @@
+{
+  "name": "@kx4acqem/frontend-dev-proxy",
+  "version": "1.0.0",
+  "description": "Development Proxy for local AEM Frontend Development - based on @Adobe/aem-site-theme-builder",
+  "author": "Alexander Berndt",
+  "license": "Apache-2.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "bin/proxy-cli.js",
+  "bin": "./bin/proxy-cli.js",
+  "engines": {
+    "node": ">=10.19.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kx4aCQem/frontend-dev-proxy.git"
+  },
+  "keywords": [
+    "aem",
+    "clientlibs",
+    "development"
+  ],
+  "bugs": {
+    "url": "https://github.com/kx4aCQem/frontend-dev-proxy/issues"
+  },
+  "homepage": "https://github.com/kx4aCQem/frontend-dev-proxy#readme",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "shelljs": "^0.8.5",
+    "tcp-port-used": "^1.0.2",
+    "yargs": "^17.7.2"
+  }
+}

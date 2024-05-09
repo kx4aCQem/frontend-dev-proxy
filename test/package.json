@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "proxy": "frontend-dev-proxy proxy --url http://localhost:4502",
+    "live": "frontend-dev-proxy live --url http://localhost:4502",
+    "proxy-qa": "frontend-dev-proxy proxy --url https://author-p33062-e130677.adobeaemcloud.com",
+    "nothing": "frontend-dev-proxy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^3.0.2",
+    "frontend-dev-proxy": "file:.."
+  }
+}

@@ -1,3 +1,10 @@
+# Temp
+tmp/
+
+# Idea folder
+.idea/
+
+
 # Logs
 logs
 *.log
