@@ -10,7 +10,7 @@ const proxy = require('./proxy/proxy');
 //const shell = require('shelljs');
 //const browserSync = require('./proxy/browserSync');
 
-const argv = yargs(hideBin(process.argv))
+yargs(hideBin(process.argv))
 .command('proxy', 'proxy only', () => {
     },
     async function (argv) {

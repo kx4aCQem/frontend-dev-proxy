@@ -99,6 +99,7 @@ const proxy = async function (CONFIG) {
     }
 
     // Remove the `secure` attribute from cookies to support Chrome
+    // ToDo: What is cookieHeader for?? repair
     if (cookieHeader) {
       cookieHeader = cookieHeader.map(val => val.replace('Secure;', ''));
     }
