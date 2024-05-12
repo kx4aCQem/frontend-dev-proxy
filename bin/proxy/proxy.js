@@ -73,7 +73,7 @@ const proxy = async function (CONFIG) {
               }
               if (replacedHtml.match(instr.regex)) {
                 isHtmlModified = true;
-                replacedHtml = replacedHtml.replaceAll(instr.regex, instr.replace);
+                replacedHtml = replacedHtml.replace(instr.regex, instr.replace);
               }
             }
           }
